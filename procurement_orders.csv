@@ -1,0 +1,21 @@
+order_id,order_date,supplier,item,quantity,unit_price,status,expected_delivery,actual_delivery
+PO-2001,2026-09-01,BuildRight Cement,Cement Bags,100,320,Delivered,2026-09-05,2026-09-05
+PO-2002,2026-09-02,SteelWorks Ltd,Steel Rods,50,680,Delivered,2026-09-07,2026-09-09
+PO-2003,2026-09-03,BuildRight Cement,Sand Bags,80,45,In Transit,2026-09-08,
+PO-2004,2026-09-04,Metro Pipes,PVC Pipes,25,240,Pending,2026-09-10,
+PO-2005,2026-09-04,SteelWorks Ltd,Steel Sheets,15,1250,Delivered,2026-09-09,2026-09-08
+PO-2006,2026-09-05,Metro Pipes,Pipe Fittings,40,90,In Transit,2026-09-11,
+PO-2007,2026-09-06,BuildRight Cement,Cement Bags,60,320,Delivered,2026-09-10,2026-09-12
+PO-2008,2026-09-06,NorthStar Electrical,Cable Rolls,12,1550,Pending,2026-09-13,
+PO-2009,2026-09-07,SteelWorks Ltd,Steel Rods,30,680,Delivered,2026-09-12,2026-09-11
+PO-2010,2026-09-08,Metro Pipes,PVC Pipes,18,240,Delivered,2026-09-14,2026-09-14
+PO-2011,2026-09-09,NorthStar Electrical,Switches,35,85,Delivered,2026-09-14,2026-09-14
+PO-2012,2026-09-10,BuildRight Cement,Sand Bags,75,45,Delivered,2026-09-15,2026-09-17
+PO-2013,2026-09-11,SteelWorks Ltd,Steel Sheets,15,1250,Pending,2026-09-16,
+PO-2014,2026-09-12,Metro Pipes,Pipe Fittings,55,90,Delivered,2026-09-17,2026-09-17
+PO-2015,2026-09-13,NorthStar Electrical,Cable Rolls,8,1550,In Transit,2026-09-18,
+PO-2016,2026-09-14,BuildRight Cement,Cement Bags,90,320,Delivered,2026-09-19,2026-09-20
+PO-2017,2026-09-15,SteelWorks Ltd,Steel Rods,22,680,Delivered,2026-09-20,2026-09-19
+PO-2018,2026-09-16,Metro Pipes,PVC Pipes,18,240,Delivered,2026-09-21,2026-09-21
+PO-2019,2026-09-17,NorthStar Electrical,Switches,50,85,Pending,2026-09-22,
+PO-2020,2026-09-18,BuildRight Cement,Sand Bags,65,45,Delivered,2026-09-23,2026-09-25
