@@ -1,16 +1,30 @@
 # ProcuraIQ — Procurement Intelligence Dashboard
 
-A Streamlit-based procurement analytics MVP that helps teams monitor purchase orders, compare suppliers, and identify delivery risks through interactive charts and KPIs.
+A Streamlit-based procurement analytics MVP that helps teams monitor purchase orders, compare supplier performance, and identify delivery risks through interactive charts, KPIs, and order-level insights.
 
-### 🚀 Live Demo
+## 🚀 Live Demo
 
 **[Open ProcuraIQ Dashboard](https://procuraiq.streamlit.app/)**
 
-### 📊 Dashboard Preview
+## 📊 Dashboard Preview
 
-The live dashboard provides an overview of procurement performance, including order value by supplier, order status, open orders, and late deliveries.
+ProcuraIQ provides an overview of procurement performance, including total order value, open orders, late deliveries, supplier comparisons, and order status.
 
-### Key Metrics
+![ProcuraIQ Dashboard](procuraIQ-dashboard.png)
+
+## 📈 Supplier Comparison
+
+Compare suppliers by order count, total order value, delivered orders, and on-time delivery rate.
+
+![ProcuraIQ Supplier Comparison](procuraIQ-suppliers.png)
+
+## 📋 Orders Requiring Attention
+
+Review individual purchase orders, delivery dates, order status, and late or outstanding deliveries to identify orders that may need follow-up.
+
+![ProcuraIQ Orders Requiring Attention](procuraIQ-orders.png)
+
+## 📌 Key Metrics
 
 - **Total Orders:** 20
 - **Total Order Value:** ₹258,175
@@ -20,15 +34,17 @@ The live dashboard provides an overview of procurement performance, including or
 
 *Metrics shown are from the current synthetic demo dataset.*
 
-### ✨ Features
+## ✨ Features
 
 - Filter purchase orders by supplier and order status.
-- Track total order value and open orders.
-- Compare suppliers by purchase order value.
+- Track total order value, order count, and open orders.
+- Compare supplier performance using order value and delivery metrics.
 - Monitor late deliveries and on-time delivery performance.
-- Identify orders that may need follow-up.
+- Identify outstanding orders requiring attention.
+- Download filtered purchase order data.
+- Explore how procurement metrics are calculated.
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **Language:** Python
 - **Dashboard:** Streamlit
@@ -36,28 +52,28 @@ The live dashboard provides an overview of procurement performance, including or
 - **Visualization:** Interactive charts
 - **Data Source:** Synthetic procurement order dataset
 
-### 💻 Run Locally
+## 💻 Run Locally
 
-1. Clone the repository:
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/mohitpal-3069/ProcuraIQ.git
-   cd ProcuraIQ
-   ```
+```bash
+git clone https://github.com/mohitpal-3069/ProcuraIQ.git
+cd ProcuraIQ
+```
 
-2. Install dependencies:
+### 2. Install dependencies
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-3. Run the dashboard:
+### 3. Run the dashboard
 
-   ```bash
-   streamlit run app/app.py
-   ```
+```bash
+streamlit run app/app.py
+```
 
-### 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 ProcuraIQ/
@@ -67,13 +83,20 @@ ProcuraIQ/
 ├── docs/
 ├── procurement_orders.csv
 ├── requirements.txt
-└── README.md
+├── README.md
+├── procuraIQ-dashboard.png
+├── procuraIQ-suppliers.png
+└── procuraIQ-orders.png
 ```
 
-### 🎯 Project Objective
+## 🎯 Project Objective
 
-ProcuraIQ demonstrates how procurement data can be transformed into actionable insights using KPIs, supplier comparisons, and delivery-risk monitoring.
+ProcuraIQ demonstrates how procurement data can be transformed into actionable insights using KPI monitoring, supplier performance comparisons, and delivery-risk tracking.
+
+The project is an MVP using synthetic data and is intended to demonstrate procurement analytics and dashboard functionality.
 
 ---
 
 **Developed by [Mohit Pal](https://github.com/mohitpal-3069)**
+
+**Live Application:** [procuraiq.streamlit.app](https://procuraiq.streamlit.app/) · **Source Code:** [GitHub Repository](https://github.com/mohitpal-3069/ProcuraIQ)
